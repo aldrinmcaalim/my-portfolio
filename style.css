@@ -4,7 +4,7 @@ body {
   font-family: "Nanum Myeongjo", serif;
   margin: 0px;
   padding: 0px;
-  font-size: ;
+  /* font-size: ; */
 }
 
 body.about {
@@ -52,13 +52,14 @@ a.contact-red {
 a.contact-red:hover {
   color: rgba(255, 0, 100, 0.5);
 }
-/***************************
+/*
 ****************************
  HOME.HTML
 ****************************
-****************************/
+***************************
+*/
 .container.black-cat {
-  background-image: url("./images/black_cat.jpg");
+  background-image: url("./black_cat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -105,20 +106,22 @@ a.contact-red:hover {
   z-index: 1;
 }
 
-/***************************
+/*
 ****************************
  HOME.HTML
 ****************************
-****************************/
+***************************
+*/
 
-/***************************
+/*
 ****************************
  ABOUT.HTML
 ****************************
-****************************/
+***************************
+*/
 
 .container.crouch-cat {
-  background-image: url("./images/crouch_cat.jpg");
+  background-image: url("./crouch_cat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -153,11 +156,12 @@ ul.about-skills {
   list-style: none;
 }
 
-/***************************
+/*
 ****************************
  ABOUT.HTML
 ****************************
-****************************/
+***************************
+*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     padding: 0;
